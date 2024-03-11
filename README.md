@@ -305,18 +305,51 @@
 > Response
 ```
 {
-  "status_code": 200,
-  "error": "string",
-  "message": "Success",
-  "data": {}
+  status": 200,
+  "message": "SUCCESS",
+  "error": "",
+  "stackTrace": "",
+  "data": {
+    "moneysign": "Far-sighted Eagle",
+    "description": "You’re a committed individual who possesses...",
+    "strength": [
+      "Sharp focus",
+      "Broad vision",
+      "Boldness"
+    ],
+    "weakness": [
+      "Sticking with bad decisions",
+      "Hyperactivity",
+      "Overconfidence"
+    ]
+  }
 }
 ```
 
 4. MoneySign Details 
 - [POST] `https://newdev.ms.onefin.app/api/user/money-sign/moneysigndetails`
-> Request
-```
-```
 > Response
 ```
+{
+  "status": 200,
+  "message": "SUCCESS",
+  "error": "",
+  "stackTrace": "",
+  "data": {
+    "moneysign": "Far-sighted Eagle",
+    "description": "You’re a committed individual who possesses...",
+    "isFeedbackSaved": false,
+    "ms_doc": "https://automated-bakup-rds.s3.amazonaws.com/1629a63f-5c3f-41c2-a091-f8f5588141ac/moneysign.pdf",
+    "strength": [
+      "Sharp focus",
+      "Broad vision",
+      "Boldness"
+    ],
+    "weakness": [
+      "Sticking with bad decisions",
+      "Hyperactivity",
+      "Overconfidence"
+    ]
+  }
+}
 ```
