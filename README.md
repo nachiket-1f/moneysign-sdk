@@ -13,13 +13,8 @@
 - MoneySign progress
 - MoneySign report
 
-> ### Rules: 
-- User Authentication is required with Customer ID only.
+> ### Rules:
+- Entire MoneySign flow as per 1Finance app will to be included
 - MoneySign UI flow will be Non-customizable.
-
-> ### Tech:
-- Which UI component needs to be included?
-- Are we integrating different APIs and Servers rather than 1F Prod?
-- How do we need to authenticate users to start MoneySign?
-- Do we need to expose callback APIs, if users leave the SDK flow?
-- How to manage the Progress of assessment?
+- User Authentication is required with Customer ID only.
+- MoneySign APIs will manage the Result and Assessment Progress by user Id.
