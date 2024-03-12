@@ -106,25 +106,25 @@ Postman Collection
     "msgenerated_time": null,
     "previous": null,
     "active": {
-      "question_id": 1,
-      "question": "How often I search for new investment options:",
+      "question_id": 123,
+      "question": "What is the capital of India",
       "instruction": null,
       "is_last_question": false,
       "is_first_question": true,
       "question_type": 1,
       "answers": [
         {
-          "option": "Never",
-          "score": "1",
-          "answer_id": 85,
+          "option": "Agra",
+          "score": "123",
+          "answer_id": 123,
           "is_none": false,
           "sequence": 1,
           "is_selected": false
         },
         {
-          "option": "Whenever I hear someone talking about it",
-          "score": "2",
-          "answer_id": 84,
+          "option": "Delhi",
+          "score": "123",
+          "answer_id": 123,
           "is_none": false,
           "sequence": 2,
           "is_selected": false
@@ -189,37 +189,53 @@ Postman Collection
       "is_assesment_start": true,
       "msgenerated_time": null,
       "previous": {
-        "question_id": 1,
-        "question": "How often I search for new investment options:",
+        "question_id": 123,
+        "question": "What is the capital of India",
         "instruction": null,
         "is_last_question": false,
         "is_first_question": true,
         "question_type": 1,
         "answers": [
           {
-            "option": "Never",
-            "score": "1",
-            "answer_id": 85,
+            "option": "Agra",
+            "score": "123",
+            "answer_id": 123,
             "is_none": false,
             "sequence": 1,
-            "is_selected": true
+            "is_selected": false
+          },
+          {
+            "option": "Delhi",
+            "score": "123",
+            "answer_id": 123,
+            "is_none": false,
+            "sequence": 2,
+            "is_selected": false
           }
         ]
       },
       "active": {
-        "question_id": 24,
-        "question": "Investment options that I’m aware of:",
-        "instruction": "Select all options that apply",
+        "question_id": 123,
+        "question": "What is the capital of India",
+        "instruction": null,
         "is_last_question": false,
-        "is_first_question": false,
-        "question_type": 2,
+        "is_first_question": true,
+        "question_type": 1,
         "answers": [
           {
-            "option": "Gold Exchange-Traded Funds (ETFs)",
-            "score": "0.25",
-            "answer_id": 88,
+            "option": "Agra",
+            "score": "123",
+            "answer_id": 123,
             "is_none": false,
             "sequence": 1,
+            "is_selected": false
+          },
+          {
+            "option": "Delhi",
+            "score": "123",
+            "answer_id": 123,
+            "is_none": false,
+            "sequence": 2,
             "is_selected": false
           }
         ]
