@@ -1,5 +1,4 @@
-
-> # MS SDK APIs
+> # MS APIs
 
 Postman Collection 
 - https://elements.getpostman.com/redirect?entityId=18661171-17de362e-31c3-44ca-9f68-fbfe723070bf&entityType=collection
@@ -285,7 +284,7 @@ Postman Collection
     "moneysign": "Far-sighted Eagle",
     "description": "You’re a committed individual who possesses...",
     "isFeedbackSaved": false,
-    "ms_doc": "https://automated-bakup-rds.s3.amazonaws.com/1629a63f-5c3f-41c2-a091-f8f5588141ac/moneysign.pdf",
+    "ms_doc": "https://automated-bakup-rds.s3.amazonaws.com/1629a63f-5c3f-41c2-a091-f8f5588141ac",
     "strength": [
       "Sharp focus",
       "Broad vision",
